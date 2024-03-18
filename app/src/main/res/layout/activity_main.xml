@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.analogclocktestvk.ClockView
+        android:id="@+id/analog_clock"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:circleColor="@color/light_gray"
+        app:circleStyle="fill_and_stroke"
+        app:digitColor="@color/black"
+        app:hourHandColor="@color/blue"
+        app:hourStrokeWidth="8dp"
+        app:minuteHandColor="@color/green"
+        app:radiusPercent="0.8"
+        app:secondHandColor="@color/red" />
+
+</LinearLayout>

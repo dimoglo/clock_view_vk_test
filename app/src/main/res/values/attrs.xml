@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="hourHandColor" format="color" />
+        <attr name="hourStrokeWidth" format="dimension" />
+        <attr name="minuteHandColor" format="color" />
+        <attr name="minuteStrokeWidth" format="dimension" />
+        <attr name="secondHandColor" format="color" />
+        <attr name="secondStrokeWidth" format="dimension" />
+        <attr name="digitSize" format="dimension" />
+        <attr name="digitColor" format="color" />
+        <attr name="radiusPercent" format="float" />"
+        <attr name="circleColor" format="color" />
+        <attr name="circleStyle" format="enum">
+            <enum name="fill" value="0"/>
+            <enum name="stroke" value="1"/>
+            <enum name="fill_and_stroke" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
